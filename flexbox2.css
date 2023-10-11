@@ -1,0 +1,36 @@
+
+
+body {background-color: lightblue; color: navy}
+
+.container { display: flex;
+                flex-direction: column;
+                height: 80vh;
+                text-align: center;
+                gap: 20px;
+                padding: 20px;
+                margin: 20px;}
+
+.header { 
+            flex: 1;
+           background-color: pink; 
+           padding: 20px;
+            margin-top: 20px;}
+
+.main { background-color: yellow; display: flex; flex: 10;
+            gap: 20px; justify-content: space-around;}
+
+.aside {background-color: coral; flex: 3; gap: 20px; }
+
+.aside2 {background-color: coral; flex: 3; gap: 20px;}
+
+
+.footer { flex: 1;
+            background-color: lightgreen; 
+            padding: 20px;}
+
+.middlecontainer { display: flex;
+                    flex-direction: row;
+                    flex: 6;
+                    align-items: center;}
+
+

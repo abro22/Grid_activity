@@ -1,0 +1,17 @@
+
+
+body {background-color: yellow; color: white}
+
+.container { 
+            display: grid;
+            grid-template-columns: 33% 33% 33%;
+
+            grid-template-rows: 300px 300px 300px;
+
+            gap: 20px;
+        }
+
+.image { background-color: blue;
+    font-size: 30px;
+    border-radius: 10px;
+    border: orange solid 10px; text-align: center; } 
